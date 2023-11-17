@@ -10,6 +10,9 @@
 4、只支持DML语句（update,insert,delete）  
 5、ldf过大时，fn_dblog读取会日志会有很大的影响，恢复速度会比较慢。  
 6、源码后续考虑开源。
+7、防止恶意程序，请执行前核对md5值是否和程序内的.MD5文件一致，
+   linux MD5命令：md5sum mslog2sql 
+   windows MD5命令：certutil -hashfile mslog2sql.exe MD5
 
 
 [使用举例]  
