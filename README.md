@@ -13,7 +13,7 @@
 7、防止恶意程序，请执行前核对md5值是否和程序内的.MD5文件一致，  
    linux MD5命令：md5sum mslog2sql   
    windows MD5命令：certutil -hashfile mslog2sql.exe MD5  
-8、支持windows和linux平台使用 
+8、支持windows和linux平台使用   
 9、日志需要是full模式，并且没有被截断  
 
 
