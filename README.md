@@ -1,6 +1,6 @@
-# mssql2sql
 
-# mssql2sql 使用
+
+# mslog2sql  
 
 [说明]  
 本项目使用golang语言开发，借助fn_dblog函数解析sqlserver 日志，返回前滚SQL和回滚SQL  
