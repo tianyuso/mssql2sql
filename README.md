@@ -176,7 +176,7 @@ delete  from [dbo].[t_cdc_t6] where [id]=1;
 [--------------------------------- end   -------------------------------------------------]  
 
 6、命令行模式,需要将mode参数设置为cmd，可以使用命令行模式执行恢复程序，举例如下：  
-./mslog2sql -mode='cmd' -db='test1' -host='10.10.10.12' -port=1433  -user 'sc' -pwd 'password' -schema 'dbo' -table 't_cdc_test6' -starttime '2023-10-30 17:45:02' -endtime '2023-11-15 17:50:30' -easycopy true  
+./mslog2sql -mode="cmd" -db="test1" -host="10.10.10.12" -port=1433  -user "sc" -pwd "password" -schema "dbo" -table "t_cdc_test6" -starttime "2023-10-30 17:45:02" -endtime "2023-11-15 17:50:30" -easycopy true   
 
 
 ### 感谢  
