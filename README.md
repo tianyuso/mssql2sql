@@ -3,7 +3,7 @@
 # mslog2sql  
 
 [说明]  
-本项目使用golang语言开发，借助fn_dblog函数解析sqlserver 日志，返回前滚SQL和回滚SQL  
+本项目使用golang语言开发，无需备份，借助fn_dblog函数解析sqlserver 日志，返回前滚SQL和回滚SQL.类似借助mysql binlog，实现mysql数据回滚的原理。    
 1、理论上支持sqlserver 2008-2019版本，未完全测试所有版本。  
 2、暂时不支持image,varbinary,xml类型解析，后续会慢慢添加  
 3、暂时不支持列存储格式，图类型等，后续会慢慢添加  
@@ -15,6 +15,7 @@
    windows MD5命令：certutil -hashfile mslog2sql.exe MD5  
 8、支持windows和linux平台使用   
 9、日志需要是full模式，并且没有被截断  
+
 
 
 [使用举例]  
