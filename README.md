@@ -2,6 +2,11 @@
 
 # mslog2sql  
 
+【1.1版本更新说明】  
+1、大幅优化日志解析速度  
+2、修复其他bug  
+3、去除 prettyTable 打印。
+
 [说明]  
 本项目使用golang语言开发，无需备份，借助fn_dblog函数解析sqlserver 日志，返回前滚SQL和回滚SQL.类似借助mysql binlog，实现mysql数据回滚的原理。    
 1、理论上支持sqlserver 2008-2019版本，未完全测试所有版本。  
